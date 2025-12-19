@@ -7,6 +7,7 @@ Its internal structure follows the sequential logic of the study, from systemati
   Folder Structure and Description:
   
 1.Meta-Analysis Literature List
+
 This subfolder contains the study-level master literature database that underpins the entire meta-analytic procedure reported in Sections 3.1–3.4 of the paper.
 Rather than serving as a simple bibliography, this file represents the empirical screening and coding backbone of the analysis.
 Each row corresponds to a unique empirical study included in the meta-analysis and is assigned a Research ID, which enables consistent tracking across literature screening, effect-size extraction, correlation matrix construction, and robustness diagnostics. The database records essential descriptive information, including authorship, publication outlet, and year of publication.
