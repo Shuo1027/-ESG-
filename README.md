@@ -1,9 +1,9 @@
-Repository Overview
+  Repository Overview:
 The folder “How ESG Creates Firm Value (Raw Data)” provides the complete data foundation and analytical materials for the study “How ESG Creates Firm Value: Disaggregating Environmental, Social, and Governance Capabilities through a Meta-Analytic Structural Lens.”
 The repository is constructed to mirror the empirical design and methodological steps described in Section 3 (Methodology) of the paper, ensuring transparency, traceability, and full replicability of the meta-analytic structural equation modeling (MASEM) process.
 Its internal structure follows the sequential logic of the study, from systematic literature identification and coding, to meta-analytic synthesis, structural estimation, and robustness validation.
 
-Folder Structure and Description
+  Folder Structure and Description:
 1.Meta-Analysis Literature List
 This subfolder contains the study-level master literature database that underpins the entire meta-analytic procedure reported in Sections 3.1–3.4 of the paper.
 Rather than serving as a simple bibliography, this file represents the empirical screening and coding backbone of the analysis.
@@ -25,5 +25,5 @@ Sensitivity analysis, conducted using the Sample-Adjusted Meta-Analytic Deviancy
 Publication bias assessment, including Egger’s regression test, Rosenthal’s fail-safe N, and Trim-and-Fill procedures.
 Across all robustness specifications, the core findings remain stable: environmental capabilities dominate internal performance and innovation outcomes, governance mechanisms drive market valuation, and social practices exhibit asymmetric internal benefits and external discounting.
 
-Replicability Statement
+  Replicability Statement:
 All data files are organized at the study level and are linked consistently through unique identifiers. This structure allows independent researchers to replicate the full empirical workflow described in the paper—from systematic literature screening and effect-size synthesis to meta-analytic structural equation modeling and robustness testing—using the provided data and executable scripts..
