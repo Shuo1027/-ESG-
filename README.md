@@ -21,7 +21,7 @@ The structural model estimates the differentiated effects of environmental, soci
 3.Robustness Checks
 This subfolder documents the robustness analyses reported in Section 4.3 of the paper.
 It includes materials for:
-Sensitivity analysis, conducted using the Sample-Adjusted Meta-Analytic Deviancy (SAMD) statistic to identify influential effect sizes and re-estimate the model after their removal,
+Sensitivity analysis, conducted using the Sample-Adjusted Meta-Analytic Deviancy (SAMD) statistic to identify influential effect sizes and re-estimate the model after their removal;
 Publication bias assessment, including Egger’s regression test, Rosenthal’s fail-safe N, and Trim-and-Fill procedures.
 Across all robustness specifications, the core findings remain stable: environmental capabilities dominate internal performance and innovation outcomes, governance mechanisms drive market valuation, and social practices exhibit asymmetric internal benefits and external discounting.
 
