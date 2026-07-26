@@ -1,6 +1,6 @@
   Repository Overview:
 
-The folder “How ESG Creates Firm Value (Raw Data)” provides the complete data foundation and analytical materials for the study “How ESG Creates Firm Value: Disaggregating Environmental, Social, and Governance Capabilities through a Meta-Analytic Structural Lens.”
+The folder provides the complete data foundation and analytical materials for the study “Do Environmental, Social, and Governance Domains Relate Differently to Firm Performance? Evidence from a Meta-Analytic Structural Equation Model”
 The repository is constructed to mirror the empirical design and methodological steps described in Section 3 (Methodology) of the paper, ensuring transparency, traceability, and full replicability of the meta-analytic structural equation modeling (MASEM) process.
 Its internal structure follows the sequential logic of the study, from systematic literature identification and coding, to meta-analytic synthesis, structural estimation, and robustness validation.
 
