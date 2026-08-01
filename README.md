@@ -22,10 +22,7 @@ The structural model jointly estimates the conditional associations of the envir
 
 3. Robustness Checks
 
-This subfolder contains analytical materials supporting the sensitivity and publication-bias assessments reported in Section 4.4 of the paper. The available files include materials used for:
-
-sensitivity analysis based on the Sample-Adjusted Meta-Analytic Deviancy (SAMD) statistic and re-estimation after influential effect sizes are removed; and
-publication-bias diagnostics, including Egger’s regression test, Rosenthal’s fail-safe N, and Trim-and-Fill procedures.
+This subfolder contains analytical materials supporting the sensitivity and publication-bias assessments reported in Section 4.4 of the paper. The available files include materials used for: sensitivity analysis based on the Sample-Adjusted Meta-Analytic Deviancy (SAMD) statistic and re-estimation after influential effect sizes are removed; and publication-bias diagnostics, including Egger’s regression test, Rosenthal’s fail-safe N, and Trim-and-Fill procedures.
 
 These analyses are used to assess whether influential estimates or potential small-study effects materially alter the principal comparative domain-to-outcome pattern. They should be interpreted as sensitivity diagnostics and do not independently validate the underlying data or analytical decisions of the primary studies.
 
