@@ -1,32 +1,40 @@
-  Repository Overview:
+  Repository Overview
 
-The folder provides the complete data foundation and analytical materials for the study “Do Environmental, Social, and Governance Domains Relate Differently to Firm Performance? Evidence from a Meta-Analytic Structural Equation Model”
-The repository is constructed to mirror the empirical design and methodological steps described in Section 3 (Methodology) of the paper, ensuring transparency, traceability, and full replicability of the meta-analytic structural equation modeling (MASEM) process.
-Its internal structure follows the sequential logic of the study, from systematic literature identification and coding, to meta-analytic synthesis, structural estimation, and robustness validation.
+The folder provides the principal replication materials for the study “Do Environmental, Social, and Governance Domains Relate Differently to Firm Performance? Evidence from a Meta-Analytic Structural Equation Model.” The repository is organized to reflect the empirical design and methodological steps described in Section 3 (Methods) of the paper and to support transparency, traceability, and reproducibility of the reported meta-analytic structural equation modeling (MASEM) analyses. Its internal structure follows the analytical sequence of the study, from the identification of the included literature to meta-analytic synthesis, structural estimation, and sensitivity assessment.
 
-  Folder Structure and Description:
+Folder Structure and Description
 
-1.Meta-Analysis Literature List:
-This subfolder contains the study-level master literature database that underpins the entire meta-analytic procedure reported in Sections 3.1–3.4 of the paper.
-Rather than serving as a simple bibliography, this file represents the empirical screening and coding backbone of the analysis.
-Each row corresponds to a unique empirical study included in the meta-analysis and is assigned a Research ID, which enables consistent tracking across literature screening, effect-size extraction, correlation matrix construction, and robustness diagnostics. The database records essential descriptive information, including authorship, publication outlet, and year of publication.
-Following the multi-stage inclusion and exclusion process described in Section 3.2, this literature list documents the final sample of 283 quantitative empirical studies, each reporting dimension-level ESG indicators and firm-level performance outcomes. These studies form the basis for the extraction of effect sizes used in subsequent meta-analytic synthesis.
+1. Meta-Analysis Literature List
 
-2.Main MASEM Analysis:
-This subfolder contains the analytical files required to estimate the meta-analytic structural equation model described in Section 3.5.2.
-Specifically, it includes:
-The integrated meta-analytic correlation matrix,
-Executable scripts (e.g., Mplus code) implementing the TSSEM procedure,
-Output files reporting standardized path coefficients, model fit indices, and explained variance.
-The structural model estimates the differentiated effects of environmental, social, and governance dimensions on financial performance, market value, and innovation output, while controlling for firm size, firm age, and leverage. All results reported in Figure 1 and Tables 2–3 of the paper can be reproduced directly using the files in this folder.
+This subfolder contains the study-level master literature database underlying the meta-analysis reported in Sections 3.1–3.4 of the paper. Rather than serving as a simple bibliography, the file documents the final evidence base resulting from the systematic screening process. Each included study is assigned a Research ID to facilitate consistent tracking across the analytical materials.
 
-3.Robustness Checks:
-This subfolder documents the robustness analyses reported in Section 4.3 of the paper.
-It includes materials for:
-Sensitivity analysis, conducted using the Sample-Adjusted Meta-Analytic Deviancy (SAMD) statistic to identify influential effect sizes and re-estimate the model after their removal;
-Publication bias assessment, including Egger’s regression test, Rosenthal’s fail-safe N, and Trim-and-Fill procedures.
-Across all robustness specifications, the core findings remain stable: environmental capabilities dominate internal performance and innovation outcomes, governance mechanisms drive market valuation, and social practices exhibit asymmetric internal benefits and external discounting.
+The database records core descriptive information, including authorship, publication outlet, and year of publication. Following the multi-stage inclusion and exclusion procedure described in Section 3.2, the final sample comprises 283 quantitative empirical studies that contributed at least one eligible correlation to the 36-cell meta-analytic correlation matrix. These study-level records provide the literature foundation for the subsequent quantitative synthesis.
+
+2. Main MASEM Analysis
+
+This subfolder contains the analytical files used for the meta-analytic structural equation model described in Section 3.5. Specifically, it includes:
+
+the pooled meta-analytic correlation matrix;
+executable Mplus input files implementing the correlation-based MASEM specification; and
+output files reporting standardized path coefficients, model fit indices, and explained variance.
+
+The structural model jointly estimates the conditional associations of the environmental, social, and governance domains with financial performance, market value, and innovation output, while accounting for firm size, firm age, leverage, and the correlations among the ESG domains. The structural-model results reported in Fig. 3 and Tables 2–3 can be reproduced using the files provided in this folder.
+
+3. Robustness Checks
+
+This subfolder contains analytical materials supporting the sensitivity and publication-bias assessments reported in Section 4.4 of the paper. The available files include materials used for:
+
+sensitivity analysis based on the Sample-Adjusted Meta-Analytic Deviancy (SAMD) statistic and re-estimation after influential effect sizes are removed; and
+publication-bias diagnostics, including Egger’s regression test, Rosenthal’s fail-safe N, and Trim-and-Fill procedures.
+
+These analyses are used to assess whether influential estimates or potential small-study effects materially alter the principal comparative domain-to-outcome pattern. They should be interpreted as sensitivity diagnostics and do not independently validate the underlying data or analytical decisions of the primary studies.
+
+Replicability and Data Availability
+
+The public repository provides the included-study literature database, pooled correlation matrices, Mplus input and output files, and the matrices used for the influence and publication-bias checks. These materials allow readers to inspect the evidence base and reproduce the principal structural and sensitivity analyses reported in the paper.
+
+The repository does not redistribute copyrighted full texts or the underlying firm-level data used by the primary studies. The full effect-size extraction file and coding protocol are retained by the authors and are available from the corresponding author on reasonable request, as stated in the manuscript’s Data Availability Statement.
 
   Replicability Statement:
   
-All data files are organized at the study level and are linked consistently through unique identifiers. This structure allows independent researchers to replicate the full empirical workflow described in the paper—from systematic literature screening and effect-size synthesis to meta-analytic structural equation modeling and robustness testing—using the provided data and executable scripts..
+All data files are organized at the study level and are linked consistently through unique identifiers. This structure allows independent researchers to replicate the full empirical workflow described in the paper—from systematic literature screening and effect-size synthesis to meta-analytic structural equation modeling and robustness testing—using the provided data and executable scripts.
